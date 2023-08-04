@@ -20,6 +20,105 @@
             background-repeat: no-repeat;
             background-position: center;
         }
+        @media (max-width:575px) {
+            .cntnr {
+                height: 300px !important;
+            }
+
+            .img-container img {
+                height: 400px;
+            }
+
+            .head span {
+                display: flex;
+                justify-content: end;
+            }
+
+            .main {
+                margin-top: -60px;
+            }
+
+            .main h1 {
+                font-size: 20px;
+            }
+
+            .main p,
+            .main button {
+                font-size: 16px;
+            }
+
+            .section2a .subsection2 {
+                margin-left: 20%;
+                margin-top: -30%;
+                margin-bottom: -10%;
+            }
+
+            .girl img {
+                height: 400px !important;
+            }
+
+            .img2 {
+                height: 100% !important;
+                margin-top: -80px;
+            }
+            .section4 .img2{
+                margin-top: 20px;
+            }
+            .section4 .img3{
+                margin-top: 20px;
+            }
+
+            .section5 .img2 {
+                margin-top: 80px;
+                height: 340px !important;
+            }
+
+            .section5 h1 {
+                font-size: 25px;
+                margin: 25px 0px;
+            }
+
+            .section5 p {
+                font-size: 14px;
+                margin: 20px 0px;
+
+
+            }
+
+            .section6 h1{
+            margin-top: 30px;
+        }
+        .section6 .sub{
+            margin-top: 20px;
+        }
+        
+        .section6 .sub input{
+            width: 55%;
+        }
+        .section6 .sub button{
+            padding: 10px 0px;
+            width: 45%;
+            font-size: 16px;
+        }
+        .section7 h1{
+              font-size: 25px;
+        }
+        .section7 p{
+             margin: 20px 0px;
+        }
+        .section7 li{
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+            
+
+        }
+        .section7 li a{
+             margin: 0px 10px;
+             font-size: 16px !important;
+
+        }
+       
+        }
             </style>
     </head>
 
@@ -46,35 +145,36 @@
                 </div>
             </div>
         </section>
-        <section class="section-2">
-            <div class="container-fluid bg-body-secondary">
-                <div class="container">
-                    <ul class="list-unstyled d-lg-flex mx-lg-5">
-                        <li class="m-2"><a href="" class="text-decoration-none">Home</a></li>
-                        <li class="m-2">/</li>
-                        <li class="m-2">Our Services</li>
-                    </ul>
-                </div>
+       <!-- section2  -->
+     <section class="section-2">
+        <div class="container-fluid bg-body-secondary">
+            <div class="container">
+                <ul class="list-unstyled d-lg-flex mx-lg-5" style="display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 0.75rem 1rem; margin-bottom: 1rem; list-style: none; background-color: #e9ecef; border-radius: 0.25rem;">
+                    <li class="m-2"><a href="" class="text-decoration-none" style ="color:#da9d40 ;">Home</a></li>
+                    <li class="m-2">/</li>
+                    <li class="m-2">Our Servies</li>
+                </ul>
             </div>
-        </section>
+        </div>
+    </section>
         <!-- section3  -->
         <section>
             <div class="container-fluid">
                 <div class="container">
                     <div class="row d-flex justify-content-evenly text-center">
-                        <div class="col-3">
+                        <div class="col-lg-4 col-md-6">
                             <i class="fa fa-puzzle-piece display-4" style="color: #da9d40;"></i>
                             <h4>Natus Doloret</h4>
                             <p>Perspiciatis unde omnis iste natus doloret ipsum volupte ut accusal ntium dolor remque
                                 laudantium, totam dolor.</p>
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-4 col-md-6">
                             <i class="fa fa-cogsfa fa-cogs display-4" style="color: #da9d40;"></i>
                             <h4>Natus Doloret</h4>
                             <p>Perspiciatis unde omnis iste natus doloret ipsum volupte ut accusal ntium dolor remque
                                 laudantium, totam dolor.</p>
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-4 col-md-6">
                             <i class="fa fa-sliders display-4" style="color: #da9d40;"></i>
                             <h4>Natus Doloret</h4>
                             <p>Perspiciatis unde omnis iste natus doloret ipsum volupte ut accusal ntium dolor remque
@@ -85,31 +185,31 @@
             </div>
         </section>
         <!-- section4  -->
-        <section>
+        <section class="section4">
             <div class="container-fluid">
                 <div class="container">
                     <div class="row mt-5">
-                        <div class="col-6">
+                        <div class="col-md-6 col-xs-12">
                             <div class="img2"
                                 style="background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/4.jpg) no-repeat center;  background-size: cover; height: 400px; ">
                                 <h2 class="text-light text-center" style="padding-top: 300px; letter-spacing: 5px;">
                                     TOURS & TRAVELS</h2>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="img2"
+                        <div class="col-md-6 col-xs-12 mt-md-0 mt-sm-3">
+                            <div class="img3"
                                 style="background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/banner3.jpg) no-repeat center;  background-size: cover; height: 190px; ">
                                 <h2 class="text-light text-center" style="padding-top:140px; letter-spacing: 5px;">
                                     TOURS & TRAVELS</h2>
                             </div>
                             <div class="row pt-4">
-                                <div class="col-6">
+                                <div class="col-md-6 col-xs-12">
                                     <div class="img3"
                                         style="background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/3.jpg) no-repeat center;  background-size: cover; height: 190px; ">
                                         <h2 class="text-light text-center" style="padding-top:140px; letter-spacing: 5px;">TOURS</h2>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-md-6 col-xs-12 mt-md-0 mt-sm-3">
                                     <div class="img3"
                                         style="background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/banner4.jpg) no-repeat center;  background-size: cover; height: 190px; ">
                                         <h2 class="text-light text-center" style="padding-top:140px; letter-spacing: 5px;">TRAVELS</h2>

@@ -27,10 +27,104 @@
             background-repeat: no-repeat;
             background-position: center;
         }
+        @media (max-width:575px) {
+            .cntnr {
+                height: 300px !important;
+            }
+
+            .img-container img {
+                height: 400px;
+            }
+
+            .head span {
+                display: flex;
+                justify-content: end;
+            }
+
+            .main {
+                margin-top: -60px;
+            }
+
+            .main h1 {
+                font-size: 20px;
+            }
+
+            .main p,
+            .main button {
+                font-size: 16px;
+            }
+
+            .section2a .subsection2 {
+                margin-left: 20%;
+                margin-top: -30%;
+                margin-bottom: -10%;
+            }
+
+            .girl img {
+                height: 400px !important;
+            }
+
+            .img2 {
+                height: 100% !important;
+                margin-top: -80px;
+            }
+
+            .section5 .img2 {
+                margin-top: 80px;
+                height: 340px !important;
+            }
+
+            .section5 h1 {
+                font-size: 25px;
+                margin: 25px 0px;
+            }
+
+            .section5 p {
+                font-size: 14px;
+                margin: 20px 0px;
+
+
+            }
+
+            .section6 h1{
+            margin-top: 30px;
+        }
+        .section6 .sub{
+            margin-top: 20px;
+        }
+        
+        .section6 .sub input{
+            width: 55%;
+        }
+        .section6 .sub button{
+            padding: 10px 0px;
+            width: 45%;
+            font-size: 16px;
+        }
+        .section7 h1{
+              font-size: 25px;
+        }
+        .section7 p{
+             margin: 20px 0px;
+        }
+        .section7 li{
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+            
+
+        }
+        .section7 li a{
+             margin: 0px 10px;
+             font-size: 16px !important;
+
+        }
+       
+        }
     </style>
 </head>
 
 <body>
+    <!-- section1  -->
     <section class="section-1">
         <div class="container-fluid">
             <div class="container text-light  ">
@@ -53,22 +147,24 @@
             </div>
         </div>
     </section>
-    <section class="section-2">
+    <!-- section2  -->
+     <section class="section-2">
         <div class="container-fluid bg-body-secondary">
             <div class="container">
-                <ul class="list-unstyled d-lg-flex mx-lg-5">
-                    <li class="m-2"><a href="" class="text-decoration-none">Home</a></li>
+                <ul class="list-unstyled d-lg-flex mx-lg-5" style="display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 0.75rem 1rem; margin-bottom: 1rem; list-style: none; background-color: #e9ecef; border-radius: 0.25rem;">
+                    <li class="m-2"><a href="" class="text-decoration-none" style ="color:#da9d40 ;">Home</a></li>
                     <li class="m-2">/</li>
                     <li class="m-2">About Us</li>
                 </ul>
             </div>
         </div>
-    </section>
-    <section class="section-3">
+    </section> 
+    <!-- section3  -->
+     <section class="section-3">
         <div class="container-fluid">
             <div class="container mt-5">
-                <div class="row p-lg-4">
-                    <div class="col-lg-6">
+                <div class="row p-lg-0">
+                    <div class="col-lg-6 col-sm-12">
                         <h4 class="mt-md-4 mt-2 text-dark px-lg-5">Sed Ut Perspiciatis Unde Omnis</h4>
                         <h5 class="px-lg-5 py-lg-1 fw-light font-monospace">VOLUPTATEM UT ACCUSA !</h5>
                         <p class="px-lg-5 fs-5  text-muted py-1">Sed ut perspiciatis unde omnis iste natus error ipsum
@@ -76,14 +172,15 @@
                             illo quasi sed architecto beatae vitae dicta sut dolor etr explicabo. Morbi a luctus magna,
                             eu rutrum turpis. Sed perspi ciatis unde error ipsum voluptatem.</p>
                     </div>
-                    <div class="col-lg-6 mt-lg-0 ">
+                    <div class="col-lg-6 col-sm-12 mt-lg-0 ">
                         <img src="https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/4.jpg"
-                            alt="">
+                            alt="" style="width: 100%; height: auto;">
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
+    <!-- section4  -->
     <section class="section-4 mt-5">
         <div class="container-fluid">
             <div class="container  text-center py-5">
@@ -99,15 +196,16 @@
             </div>
         </div>
     </section>
+    <!-- section5  -->
     <section class="section-5 py-5">
-        <div class="container-fluid">
+        <div class="container-fluid py-md-4">
             <div>
                 <h1 class=" d-lg-flex justify-content-center mb-md-5">Our Agents</h1>
             </div>
             <div>
-                <div class="row justify-content-around">
+                <div class="row team-grid">
                     <div class="col-lg-9 justify-content-center" >
-                        <div class="row">
+                         <div class="row">
                             <div class="col-lg-3 col-sm-6">
                                 <div> <img
                                         src="https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/team1.jpg"
@@ -133,7 +231,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
     <section class="section6">
         <div class="container-fluid">
             <div class="row ">
@@ -209,7 +307,7 @@
             </div>
 
         </div>
-    </section>
+    </section> 
 </body>
 
 </html>
